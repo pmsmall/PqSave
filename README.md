@@ -22,7 +22,7 @@ Usage: pqsave mode [option arg]... input output [script1 (In script mode only)] 
 The keys of Android version are stored in /data/data/jp.pokemon.pokemonquest/shared_prefs/pqdata.xml, but it is encrypted.
 This program cannot decrypt it now.
 
-You can dump your key with [GameGuardian](https://gameguardian.net/download)
+You can dump your key with [GameGuardian](https://gameguardian.net/download).
 [How to use GameGuardian find key](https://gbatemp.net/threads/qedit-a-pokemon-quest-web-based-save-editor.509951/page-5#post-8150042)
 
 Maybe the IOS version is similar.
