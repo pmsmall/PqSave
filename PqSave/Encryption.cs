@@ -7,7 +7,12 @@ namespace PqSave
 {
     public static class Encryption
     {
-        private static readonly byte[] Key = Encoding.UTF8.GetBytes("C7PxX4jPfPQ2SmzB");
+        public static string key
+        {
+            set { Key = Encoding.UTF8.GetBytes(value); }
+            get { return Encoding.UTF8.GetString(Key); }
+        }
+        private static byte[] Key = Encoding.UTF8.GetBytes("C7PxX4jPfPQ2SmzB");
         private static readonly byte[] Iv = Encoding.UTF8.GetBytes("nSdhdc3ecDDEM7fA");
         private static readonly byte[] ChecksumKey = Encoding.UTF8.GetBytes("chikuwa-hanpen");
         private static readonly int SaveLength = 0x80000;

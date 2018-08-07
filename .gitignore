@@ -260,3 +260,6 @@ paket-files/
 __pycache__/
 *.pyc
 **/launchSettings.json
+/PqSave/key.txt
+/PqSave/user
+/PqSave/user.d
