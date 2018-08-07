@@ -140,9 +140,9 @@ namespace PqSave
             Console.WriteLine("    i Import save from JSON");
             Console.WriteLine("    s Script - Run scripts on an encrypted save");
             Console.WriteLine("  options:");
-            Console.WriteLine("    -k,--key set key, default is the key of switch version");
-            Console.WriteLine("             when you use '--keyfile', use the key in file first");
-            Console.WriteLine("    --keyfile from file import key");
+            Console.WriteLine("    -k,--key Set key, default is the key of switch version");
+            Console.WriteLine("             When you use '--keyfile', use the key in file first");
+            Console.WriteLine("    --keyfile From file import key");
         }
     }
 }
