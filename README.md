@@ -1,4 +1,5 @@
-# PqSave
+# PqSave 
+[中文](#pqsave-宝可梦探险寻宝存档工具)
 
 This program will allow you to read and write Pokémon Quest save files.
 
@@ -24,6 +25,7 @@ The keys of Android version are stored in /data/data/jp.pokemon.pokemonquest/sha
 This program cannot decrypt it now.
 
 You can dump your key with [GameGuardian](https://gameguardian.net/download).
+
 [How to use GameGuardian find key](https://gbatemp.net/threads/qedit-a-pokemon-quest-web-based-save-editor.509951/page-5#post-8150042)
 
 Maybe the IOS version is similar.
@@ -61,7 +63,8 @@ If you have the .NET Framework 4.6 Targeting Pack installed the .NET Core SDK wi
 
 ----
 
-# PqSave
+# PqSave 宝可梦探险寻宝存档工具
+[English](#pqsave)
 
 这个程序可以将加密的宝可梦探险寻宝存档文件进行解密，以允许对其数据进行修改。
 
