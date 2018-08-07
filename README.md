@@ -76,7 +76,7 @@ If you have the .NET Framework 4.6 Targeting Pack installed the .NET Core SDK wi
     i 从JSOn导入存档
     s 在加密的存档上面允许脚本
   选项:
-    -k,--key 设置密钥，默认是switch版本的密钥。当使用`--keyfile`选项时，优先使用文件中的密钥
+	-k,--key 设置密钥，默认是switch版本的密钥。当使用`--keyfile`选项时，优先使用文件中的密钥
 	--keyfile 从文件导入密钥
 ````
 ## 安卓版本
