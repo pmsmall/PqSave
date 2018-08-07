@@ -57,7 +57,15 @@ namespace PqSave
                 using (var cs = new CryptoStream(ms, transformer, CryptoStreamMode.Write))
                 {
                     cs.Write(data, index, length);
-                    cs.FlushFinalBlock();
+                    try
+                    {
+                        cs.FlushFinalBlock();
+                    }catch(Exception e)
+                    {
+                        Console.WriteLine("Key error, please use the right key.");
+                        Environment.Exit(1);
+                    }
+                    
                     return ms.ToArray();
                 }
             }
